@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef1"
+            },
+            "Name": "New Opportunity",
+            "CloseDate": "2019-06-25",
+            "StageName": "Closed Won",
+            "Probability": 100,
+            "Amount": 300,
+            "ForecastCategoryName": "Closed",
+            "AccountId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef2"
+            },
+            "Name": "*United Nursing Facility Network - NUEDEXTA",
+            "Type": "Add-On Business",
+            "CloseDate": "2020-01-24",
+            "StageName": "Develop External Advocates",
+            "Probability": 20,
+            "Amount": 25000,
+            "ForecastCategoryName": "Pipeline",
+            "AccountId": "@AccountRef1"
+        }
+    ]
+}

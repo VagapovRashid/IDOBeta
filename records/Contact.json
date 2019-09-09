@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "FirstName": "Wendy",
+            "LastName": "Berkowitz",
+            "Title": "Nursing Home Physician",
+            "Email": "wberkowitz@example.com",
+            "Phone": "(212) 562-4141",
+            "AccountId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef2"
+            },
+            "FirstName": "*Lauren",
+            "LastName": "Boyle",
+            "Title": "Physician",
+            "Email": "lboyle@example.com",
+            "Phone": "(415) 555-9303",
+            "Birthdate": "1978-07-07",
+            "CTPHARMA__DivisionAlphaCategory__c": "Category 1",
+            "CTPHARMA__DivisionBetaCategory__c": "Category 2",
+            "AccountId": "@AccountRef1"
+        }
+    ]
+}
