@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>SignatureCheckController</members>
 		<members>TestDaPackage</members>
 		<name>ApexClass</name>
 	</types>
@@ -36,9 +37,11 @@
         <members>Account.PHARMA_Units_to_Projected__c</members>
         <members>Account.PHARMA_Y_1_Actual__c</members>
         <members>Account.PHARMA_Y_1_Plan__c</members>
+        <members>Contact.ContactId__c</members>
         <members>Contact.Degree__c</members>
         <members>Contact.License_Number__c</members>
 		<members>CTPHARMA__Activity__c.AddressId__c</members>
+		<members>CTPHARMA__Activity__c.Audit__c</members>
 		<members>CTPHARMA__Activity__c.Controled_asthma_number__c</members>
         <members>CTPHARMA__Activity__c.CTPHARMA__Status__c</members>
         <members>CTPHARMA__Activity__c.ContactDegree__c</members>
@@ -120,6 +123,7 @@
         <members>CORE_ActionPlan__c</members>
         <members>CORE_Action__c</members>
         <members>CORE_AssortmentLineItem__c</members>
+        <members>Influence__c</members>
         <members>InternalURLSettings__mdt</members>
         <members>LicenseType__c</members>
         <members>License__c</members>
@@ -138,6 +142,7 @@
         <members>SampleDrop__c</members>
         <members>StoreProduct__c</members>
         <members>Store__c</members>
+        <members>Transfer__c</members>
         <members>Visit_Action__c</members>
         <members>VisitDialog_Layout__mdt</members>
         <members>VisitDialog_Sections__mdt</members>
