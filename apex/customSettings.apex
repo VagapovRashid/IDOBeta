@@ -188,7 +188,7 @@ List<clm__MobileCustomization__c> mobileCustomizations = new List<clm__MobileCus
 List<clm__MobileCustomization__c> newMobileCustomizations = [SELECT Name, clm__Colors__c, clm__CriteriaField__c, clm__Object__c, clm__OrgProfileId__c, clm__Values__c FROM clm__MobileCustomization__c WHERE Name = 'Influence__c'];
 
 if(newMobileCustomizations.size() == 0){
-    mobileCustomizations.add(new clm__MobileActivityDataCustomization__c());
+    mobileCustomizations.add(new clm__MobileCustomization__c());
 } else{
     mobileCustomizations.add(newMobileCustomizations[0]);
 }
@@ -202,7 +202,7 @@ mobileCustomizations = new List<clm__MobileCustomization__c>();
 newMobileCustomizations = [SELECT Name, clm__Colors__c, clm__CriteriaField__c, clm__Object__c, clm__OrgProfileId__c, clm__Values__c FROM clm__MobileCustomization__c WHERE Name = 'CTPHARMA__Activity__c'];
 
 if(newMobileCustomizations.size() == 0){
-    mobileCustomizations.add(new clm__MobileActivityDataCustomization__c());
+    mobileCustomizations.add(new clm__MobileCustomization__c());
 } else{
     mobileCustomizations.add(newMobileCustomizations[0]);
 }
