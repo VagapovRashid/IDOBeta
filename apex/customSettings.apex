@@ -198,7 +198,6 @@ mobileCustomizations[0].clm__CriteriaField__c = 'Type__c';
 mobileCustomizations[0].clm__Object__c = 'Influence__c';
 mobileCustomizations[0].clm__Values__c = 'Owns,Supply,Research,KOL influence';
 
-mobileCustomizations = new List<clm__MobileCustomization__c>();
 newMobileCustomizations = [SELECT Name, clm__Colors__c, clm__CriteriaField__c, clm__Object__c, clm__OrgProfileId__c, clm__Values__c FROM clm__MobileCustomization__c WHERE Name = 'CTPHARMA__Activity__c'];
 
 if(newMobileCustomizations.size() == 0){
